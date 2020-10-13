@@ -1,7 +1,8 @@
 from window_ui import *
 from googlesearch import search
+import platform
 
-class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
+class MainWindow(QtWidgets.QMainWindow, QtWidgets.QListWidget, QtWidgets.QFileDialog, Ui_MainWindow):
     def __init__(self, *args, **kwargs):
         QtWidgets.QMainWindow.__init__(self, *args, **kwargs)
         self.setupUi(self)
@@ -15,10 +16,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         app_icon.addFile('icon.jpg', QtCore.QSize(256,256))
         self.setWindowIcon(app_icon)
 
-        self.searchButton.clicked.connect(self.buttonClicked)
-
+        self.searchButton.clicked.connect(self.searchButtonClicked)
         self.clearButton.clicked.connect(self.clearTable)
-    def buttonClicked(self):
+        self.saveButton.clicked.connect(self.saveTXT)
+
+    def searchButtonClicked(self):
         query = self.DorksList.currentText()
         results = self.results.value()
 
@@ -30,6 +32,16 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
     def clearTable(self):
         self.urlTable.clear()
+
+    def saveTXT(self):
+        items = self.urlTable.count()
+        if (platform.system() == "Windows"):
+            urls = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '%HOMEPATH%/urls', filter='*.txt')
+        
+        print(items)
+
+        for i in str(items):
+            print("hola")
 
 if __name__=="__main__":
     app = QtWidgets.QApplication([])

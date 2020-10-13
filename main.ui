@@ -17,8 +17,8 @@
    <widget class="QComboBox" name="DorksList">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>100</y>
+      <x>200</x>
+      <y>200</y>
       <width>131</width>
       <height>22</height>
      </rect>
@@ -3017,8 +3017,8 @@
    <widget class="QLabel" name="DorkLabel">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>80</y>
+      <x>200</x>
+      <y>180</y>
       <width>47</width>
       <height>13</height>
      </rect>
@@ -3030,8 +3030,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>80</y>
+      <x>360</x>
+      <y>180</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -3043,8 +3043,8 @@
    <widget class="QSpinBox" name="results">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>100</y>
+      <x>360</x>
+      <y>200</y>
       <width>42</width>
       <height>22</height>
      </rect>
@@ -3062,9 +3062,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>100</y>
-      <width>75</width>
+      <x>550</x>
+      <y>200</y>
+      <width>71</width>
       <height>23</height>
      </rect>
     </property>
@@ -3102,6 +3102,22 @@
     </property>
     <property name="text">
      <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>460</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
     </property>
    </widget>
   </widget>
