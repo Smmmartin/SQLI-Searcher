@@ -1,0 +1,3111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="Dorks">
+   <widget class="QComboBox" name="DorksList">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>100</y>
+      <width>131</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>view_items.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>home.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item_book.php?CAT=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>www/index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>schule/termine.php?view=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>goods_detail.php?data=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>storemanager/contents/item.php?page_code=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_items.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>customer/board.htm?mode=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>help/com_view.html?code=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>n_replyboard.php?typeboard=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>eng_board/view.php?T****=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>prev_results.php?prodID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bbs/view.php?no=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gnu/?doc=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>zb/view.php?uid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>global/product/product.php?gubun=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m_view.php?ps_db=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?tid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product-list.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>onlinesales/product.php?product_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>garden_equipment/Fruit-Cage/product.php?pr=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?shopprodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_info.php?products_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?tid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>showsub.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?fid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product-list.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?sku=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>store/product.php?productid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productList.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_detail.php?product_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_items.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>county-facts/diary/vcsgen.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>idlechat/message.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>podcast/item.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?act=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>details.php?prodId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>socsci/events/full_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ourblog.php?categoryid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mall/more.php?ProdID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>archive/get.php?message_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>review/review_form.php?item_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>english/publicproducts.php?groupid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news_and_notices.php?news_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>rounds-detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gig.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>board/view.php?no=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?modus=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news_item.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>rss.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products/product.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>details.php?ProdID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>els_/product/product.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>store/description.php?iddesc=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>socsci/news_items/full_story.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>naboard/memo.php?bd=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bookmark/mybook/bookmark.php?bookPageNo=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>board/board.html?table=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kboard/kboard.php?board=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>order.asp?lotid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>goboard/front/board_view.php?code=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bbs/bbsView.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>boardView.php?bbs=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product/product.php?cate=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?p=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>page.php?module=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bookpage.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cbmer/congres/page.php?LAN=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>photogallery.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product/product.php?product_no=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>nyheder.htm?show=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>book.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>book.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?PID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_items.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_author.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>main.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>english/fonction/print.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>magazines/adult_magazine_single_page.php?magid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_details.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>magazines/adult_magazine_full_year.php?magid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products/card.php?prodID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/product.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>e_board/modifyform.html?code=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>community/calendar-event-fr.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?p=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>StoreRedirect.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>subcategories.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tek9.php?</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>topic.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tuangou.php?bookid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>type.php?iType=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>updatebasket.php?bookid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>updates.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_cart.php?title=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_detail.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewcart.php?CartId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewCart.php?userID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewCat_h.php?idCategory=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewevent.php?EventID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewitem.php?recor=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewPrd.php?idcategory=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ViewProduct.php?misc=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>voteList.php?item_ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>whatsnew.php?idCategory=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WsAncillary.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WsPages.php?ID=noticiasDetalle.php?xid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sitio/item.php?idcd=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?site=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>de/content.php?page_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gallerysort.php?iid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>docDetail.aspx?chnum=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?section=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>en/publications.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>events/detail.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>forum/profile.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>media/pr.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cloudbank/detail.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pages.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>beitrag_D.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content/index.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?i=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>?action=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>beitrag_F.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?pageid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>page.php?modul=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?w=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?modus=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>aktuelles/meldungen-detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>obio/detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>page/de/produkte/produkte.php?prodID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>packages_display.php?ref=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>shop/index.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>modules.php?bookid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view/7/9628/1.html?reply=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_details.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/product.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>rating.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products/product.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>book_detail.php?BookID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>default.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?catid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>categories.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>categories.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?prodID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>hm/inside.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?area_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>questions.php?questionid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>html/scoutnew.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>main/index.php?action=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>********.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>********.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?type=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewthread.php?tid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>summary.php?PID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news/latest_news.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?CID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>specials.php?osCsid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>search/display.php?BookID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>articles.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?sid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>page.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>newsite/pdf_show.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>shop/category.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>shopcafe-shop-product.php?bookId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>shop/books_detail.php?bookID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>shop/books_detail.php?bookID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>blog.php?blog=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>prodotti.php?id_cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?CID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>poem_list.php?bookID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?categoryId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>authorDetails.php?bookID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>press_release.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item_list.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>colourpointeducational/more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>download.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>shop/category.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>i-know/content.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>store/index.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>yacht_search/yacht_view.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pharmaxim/category.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?sid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>specials.php?osCsid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>store.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>displayrange.php?rangeid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>csc/news-details.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products-display-details.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>stockists_list.php?area_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news/newsitem.php?newsID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>newsitem.php?newsid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news/newsitem.php?newsID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>details.php?prodId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>publications/publication.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>purelydiamond/products/category.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product/detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news/newsitem.php?newsID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>details.php?prodID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item.php?item_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>edition.php?area_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>page.php?area_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_newsletter.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>feedback.php?title=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>freedownload.php?bookid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>fullDisplay.php?item=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>getbook.php?bookid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GetItems.php?itemid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>giftDetail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>help.php?CartId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>home.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?cart=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?cartID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>info.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item.php?eid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item.php?item_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item.php?itemid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item.php?model=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item.php?prodtype=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item.php?shopcd=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item_details.php?catid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item_list.php?maingroup</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item_show.php?code_no=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>itemDesc.php?CartId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>itemdetail.php?item=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>itemdetails.php?catalogid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>learnmore.php?cartID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>links.php?catid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>list.php?bookid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>List.php?CatID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>listcategoriesandproducts.php?idCategory=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>modline.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>myaccount.php?catid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>updates.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_cart.php?title=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_detail.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewcart.php?CartId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewCart.php?userID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewCat_h.php?idCategory=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewevent.php?EventID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewitem.php?recor=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>viewPrd.php?idcategory=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ViewProduct.php?misc=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>voteList.php?item_ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>whatsnew.php?idCategory=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WsAncillary.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WsPages.php?ID=noticiasDetalle.php?xid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sitio/item.php?idcd=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?site=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>de/content.php?page_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gallerysort.php?iid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?type=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>event.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>showfeature.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>home.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tas/event.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>profile.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>past-event.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?action=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>site/products.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>page.php?pId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>resources/vulnerabilities_list.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>site.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products/index.php?rangeid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>global_projects.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>publications/view.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>display_page.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pages.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lmsrecords_cd.php?cdid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?prd=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cat/?catid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products/product-list.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>debate-detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cbmer/congres/page.php?LAN=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>photogallery.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product/product.php?product_no=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>nyheder.htm?show=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>book.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>book.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?PID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_items.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_author.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>main.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>english/fonction/print.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>magazines/adult_magazine_single_page.php?magid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_details.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>magazines/adult_magazine_full_year.php?magid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products/card.php?prodID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/product.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>e_board/modifyform.html?code=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>community/calendar-event-fr.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?p=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view/7/9628/1.html?reply=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_details.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/product.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>rating.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products/product.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>book_detail.php?BookID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>default.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>catalog/main.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?catid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>categories.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>categories.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?prodID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>hm/inside.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?area_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gallery.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>media/pr.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>books/book.php?proj_nr=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products/card.php?prodID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>general.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?t=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>usb/devices/showdev.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content/detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>templet.php?acticle_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news/news/title_show.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?url=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cryolab/content.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ls.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>s.php?w=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>abroad/page.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bayer/dtnews.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news/temp.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?url=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>book/bookcover.php?bookid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php/en/component/pvm/?view=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product/list.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cats.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>software_categories.php?cat_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?sid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>docDetail.aspx?chnum=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?section=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>en/publications.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>events/detail.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?c=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>main.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>article.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>showproduct.php?productId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_item.php?item=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>skunkworks/content.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item_show.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>publications.php?Id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?t=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_items.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>portafolio/portafolio.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>YZboard/view.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index_en.php?ref=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index_en.php?ref=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?id_category=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>main.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>main.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>calendar/event.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>default.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pages/print.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?pg_t=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>_news/news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>forum/showProfile.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>fr/commande-liste-categorie.php?panier=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>downloads/shambler.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sinformer/n/imprimer.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>More_Details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>directory/contenu.php?id_cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>properties.php?id_cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>forum/showProfile.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>downloads/category.php?c=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_info.php?products_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_info.php?products_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product-list.php?category_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?siteid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>projects/event.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_items.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>melbourne_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>home.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>idlechat/message.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?sid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>default.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>events/event.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>brand.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>toynbeestudios/content.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>show-book.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>store/default.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>property.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>more_details.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?shopprodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?productid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?product=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?product_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?shopprodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>garden_equipment/pest-weed-control/product.php?pr=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?shopprodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>browsepr.php?pr=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kshop/product.php?productid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>showproduct.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?productid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?pageId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?tid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product-list.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>onlinesales/product.php?product_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>garden_equipment/Fruit-Cage/product.php?pr=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?shopprodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_info.php?products_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?tid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>showsub.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?fid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product-list.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?sku=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?grpid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cart/product.php?productid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>db/CART/product_details.php?product_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ProductList.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products/product.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?shopprodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_info.php?products_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_ranges_view.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cei/cedb/projdetail.php?projID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?DepartmentID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?shopprodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?shopprodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_info.php?products_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?news=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>education/content.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Interior/productlist.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?categoryID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>?pid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bookpage.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view_items.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?pagina=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>notify/notify_form.php?topic_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>php/index.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?product_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>constructies/product.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>php/index.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?section=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?****=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>show_bug.cgi?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>detail.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bookpage.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>today.php?eventid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>main.php?item=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>event.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?sid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news/news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>module/range/dutch_windmill_collection.php?rangeId=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?sid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>show_bug.cgi?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product_details.php?product_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?groupid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>projdetails.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?productid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?catid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?product_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?prodid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>newsitem.php?newsID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>newsitem.php?newsid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>profile.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>********s_in_area.php?area_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productlist.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>productsview.php?proid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>rss.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pub/pds/pds_view.php?start=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?rub=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ogloszenia/rss.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?sid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print.php?sid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>magazin.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>galerie.php?cid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>www/index.php?page=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>view.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>board/read.php?tid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?id_h=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?book=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>products.php?act=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>reply.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>isplay.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>display.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ponuky/item_show.php?ID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>default.php?cPath=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>main/magpreview.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>***zine/board.php?board=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?arti_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mall/more.php?ProdID=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>product.php?cat=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>news.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content/view.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>index.php?action=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>board_view.php?s_board_id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KM/BOARD/readboard.php?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>board_view.html?id=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>content.php?cont_title=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>category.php?catid=</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mall/more.php?ProdID=</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="DorkLabel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>80</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dork:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>80</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Number of results:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="results">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>100</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>100</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="urlTable">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>230</y>
+      <width>421</width>
+      <height>221</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>460</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
