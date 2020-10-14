@@ -38,7 +38,9 @@ class MainWindow(QtWidgets.QMainWindow, QtWidgets.QListWidget, QtWidgets.QFileDi
         if (platform == "win32"):
             urls = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '%HOMEPATH%/urls', filter='*.txt')
         elif (platform == "linux" or "linux2"):
-            urls =QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '/home/alex/urls', filter='*.txt')
+            urls = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '$HOME/urls', filter='*.txt')
+        elif (platform == "darwin"):
+            urls = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '/home/alex/urls', filter='*.txt')
         print(items)
 
         for i in str(items):
