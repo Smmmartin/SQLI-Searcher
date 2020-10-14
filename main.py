@@ -1,6 +1,6 @@
 from window_ui import *
 from googlesearch import search
-import platform
+from sys import platform
 
 class MainWindow(QtWidgets.QMainWindow, QtWidgets.QListWidget, QtWidgets.QFileDialog, Ui_MainWindow):
     def __init__(self, *args, **kwargs):
@@ -35,9 +35,10 @@ class MainWindow(QtWidgets.QMainWindow, QtWidgets.QListWidget, QtWidgets.QFileDi
 
     def saveTXT(self):
         items = self.urlTable.count()
-        if (platform.system() == "Windows"):
+        if (platform == "win32"):
             urls = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '%HOMEPATH%/urls', filter='*.txt')
-        
+        elif (platform == "linux" or "linux2"):
+            urls =QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '/home/alex/urls', filter='*.txt')
         print(items)
 
         for i in str(items):
