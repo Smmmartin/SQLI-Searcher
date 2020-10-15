@@ -1,6 +1,6 @@
 from window_ui import *
 from googlesearch import search
-from sys import platform
+import platform
 
 class MainWindow(QtWidgets.QMainWindow, QtWidgets.QListWidget, QtWidgets.QFileDialog, Ui_MainWindow):
     def __init__(self, *args, **kwargs):
@@ -27,21 +27,24 @@ class MainWindow(QtWidgets.QMainWindow, QtWidgets.QListWidget, QtWidgets.QFileDi
         self.search(query, results)
 
     def search(self, query, results):
+        listaItems = []
         for i in search(query, num=results, stop=results, pause=2):
             self.urlTable.addItem(i)
+            
+            listaItems.append(i)
 
     def clearTable(self):
         self.urlTable.clear()
 
-    def saveTXT(self):
+    def saveTXT(self, listaItems, results):
         items = self.urlTable.count()
-        if (platform == "win32"):
-            urls = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '%HOMEPATH%/urls', filter='*.txt')
-        elif (platform == "linux" or "linux2"):
-            urls = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '$HOME/urls', filter='*.txt')
-        elif (platform == "darwin"):
-            urls = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', '/home/alex/urls', filter='*.txt')
-        print(items)
+        urls = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File', 'urls', filter='*.txt')
+        print(urls[0])
+        f = open(str(urls[0]), "w+")
+        
+        iterator = 0
+        for i in results:
+            f.write(str(listaItems[iterator]))
 
         for i in str(items):
             print("hola")
